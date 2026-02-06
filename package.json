@@ -2,7 +2,7 @@
   "name": "my-valentines-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://verushan.github.io/my-valentines-app",
+  "homepage": "https://Verushan.github.io/my-valentines-app",
   "type": "module",
   "scripts": {
     "dev": "vite",
