@@ -1,0 +1,33 @@
+.question {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.prompt {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+}
+
+.option {
+    font-size: 1.5rem;
+}
+
+.sadBackground {
+    background:
+            linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+            url('../../../public/images/sad.png') center/contain no-repeat;
+
+    height: 100%;
+}
