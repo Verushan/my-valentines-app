@@ -38,8 +38,8 @@ function App() {
     return (
       <div className="initialBackground content">
         <Question
-          onYesClicked={() => success()}
-          noAttempted={() => failure()}
+          onYesClicked={success}
+          noAttempted={failure}
         ></Question>
       </div>
     )
